@@ -1,0 +1,29 @@
+.form {
+  text-align: right;
+}
+
+.form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: #383838;
+  border: 1px solid #383838;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.amount label {
+  font-weight: 700;
+  margin-right: 10px;
+}
+.form button:hover,
+.form button:active {
+  background-color: rgba(0,0,0,0.9);
+  border-color: rgba(0,0,0,0.9);
+}
